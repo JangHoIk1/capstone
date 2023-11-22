@@ -12,11 +12,12 @@ nav {
 
 nav > ul {
   display: flex;
-  gap: 80px;
+  gap: 60px;
 }
 
 nav > ul > li {
-  font-size: 20px;
+  min-width: max-content;
+  font-size: 18px;
 }
 
 nav > ul > li:hover {
