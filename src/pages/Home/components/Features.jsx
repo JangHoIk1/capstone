@@ -6,9 +6,7 @@ import HeaderTitle from './HeaderTitle';
 import Teams from './Teams';
 import { useEffect, useRef } from 'react';
 
-
 const Features = () => {
-
   const targetRef = useRef(null);
 
   const handleIntersect = (entries, observer) => {
@@ -24,7 +22,7 @@ const Features = () => {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0,
+      threshold: 0.1,
     };
 
     const observer = new IntersectionObserver(handleIntersect, options);
@@ -43,7 +41,7 @@ const Features = () => {
 
       <div className="features-grid-container">
         <div className="features-grid-item">
-        <div className="features-image-wrapper hover-scale">
+          <div className="features-image-wrapper hover-scale">
             <img src={callImage} alt="이미지" />
           </div>
         </div>
@@ -68,19 +66,6 @@ const Features = () => {
             <img src={studyImage} alt="이미지" />
           </div>
         </div>
-        {/* <div className="features-grid-item">
-          <div className="features-image-wrapper hover-scale">
-            <img src={studyImage} alt="이미지" />
-          </div>
-        </div> */}
-        {/* <div className="features-grid-item">
-          <div>
-            <h3>친구 관리 기능</h3>
-            <Link to="">
-              <Button />
-            </Link>
-          </div>
-        </div> */}
       </div>
 
       <Teams />
