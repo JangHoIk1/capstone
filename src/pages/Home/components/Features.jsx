@@ -3,8 +3,8 @@ import callImage from '../../../assets/images/call.png';
 import studyImage from '../../../assets/images/study.jpg';
 import Button from '../../../components/Button';
 import HeaderTitle from './HeaderTitle';
-import Teams from './Teams';
 import { useEffect, useRef } from 'react';
+import Tech from './Tech';
 
 const Features = () => {
   const targetRef = useRef(null);
@@ -38,7 +38,6 @@ const Features = () => {
         title="기능 소개"
         subTitle="수어를 사용하여 통화를 하거나, 단어를 검색하여 수화를 학습해 보아요!"
       />
-
       <div className="features-grid-container">
         <div className="features-grid-item">
           <div className="features-image-wrapper hover-scale">
@@ -68,7 +67,7 @@ const Features = () => {
         </div>
       </div>
 
-      <Teams />
+      <Tech />
     </div>
   );
 };

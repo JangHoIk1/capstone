@@ -1,6 +1,5 @@
 import './index.css';
 
-import Contact from './components/Contact';
 import QuickLinks from './components/QuickLinks';
 import SignLanguage from './components/SignLanguage';
 
@@ -9,7 +8,6 @@ const Footer = () => {
     <footer>
       <SignLanguage />
       <QuickLinks />
-      <Contact />
     </footer>
   );
 };

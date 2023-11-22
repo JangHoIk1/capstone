@@ -13,9 +13,6 @@ const HeaderNav = () => {
         <li>
           <Link to="/study">학습하기</Link>
         </li>
-        <li>
-          <Link to="/team">팀 소개</Link>
-        </li>
       </ul>
     </nav>
   );
