@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-width: 160px;
+}
+
+.logo > svg {
+  width: 54px;
+}
+
+.logo > span {
+  font-size: 35px;
+  letter-spacing: 0.46px;
+}
