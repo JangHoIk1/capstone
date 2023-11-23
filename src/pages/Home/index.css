@@ -194,6 +194,23 @@
   height: 100%;
 }
 
+.tech-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tech-profile img {
+  width: 80%;
+  height: 80%;
+}
+
 .member-text {
   display: flex;
   flex-direction: column;

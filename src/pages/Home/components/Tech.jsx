@@ -1,6 +1,9 @@
 import HeaderTitle from './HeaderTitle';
 
-import image02 from '../../../assets/images/image_02.jpeg';
+import icon01 from '../../../assets/icons/icon_01.png';
+import icon02 from '../../../assets/icons/icon_02.png';
+import icon03 from '../../../assets/icons/icon_03.png';
+import icon04 from '../../../assets/icons/icon_04.png';
 
 const Tech = () => {
   return (
@@ -12,8 +15,8 @@ const Tech = () => {
 
       <div className="techs">
         <div className="member-card">
-          <div className="member-profile">
-            <img src={image02} alt="" />
+          <div className="tech-profile">
+            <img src={icon01} alt="" />
           </div>
           <div className="member-text">
             <div className="member-name">Strategy</div>
@@ -25,8 +28,8 @@ const Tech = () => {
         </div>
 
         <div className="member-card">
-          <div className="member-profile">
-            <img src={image02} alt="" />
+          <div className="tech-profile">
+            <img src={icon02} alt="" />
           </div>
           <div className="member-text">
             <div className="member-name">Design</div>
@@ -35,8 +38,8 @@ const Tech = () => {
         </div>
 
         <div className="member-card">
-          <div className="member-profile">
-            <img src={image02} alt="" />
+          <div className="tech-profile">
+            <img src={icon03} alt="" />
           </div>
           <div className="member-text">
             <div className="member-name">Development</div>
@@ -47,8 +50,8 @@ const Tech = () => {
         </div>
 
         <div className="member-card">
-          <div className="member-profile">
-            <img src={image02} alt="" />
+          <div className="tech-profile">
+            <img src={icon04} alt="" />
           </div>
           <div className="member-text">
             <div className="member-name">Term</div>
